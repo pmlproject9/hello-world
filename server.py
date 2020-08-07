@@ -4,14 +4,14 @@ import socket
 
 class WebRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
     def do_GET(self):
-        if self.path != "/alauda.jpg":
+        if self.path != "/pml.png":
             hostname = socket.gethostname()
             message_parts = [
                 "<html>",
                 "<head><title>Hello World</title></head>",
                 "<body style=\"text-align:center;\">",
-                "<p><img src='alauda.jpg' /></p>",
-                "<h3>Hello Alauda!</h3><br />",
+                "<p><img src='pml.png' /></p>",
+                "<h3>Hello Pml!</h3><br />",
                 "<p>My hostname is <b>" + hostname + "</b></p>",
                 "</body>",
                 "<html>"

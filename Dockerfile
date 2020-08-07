@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER ruicao ruicao@mathildetech.com
+MAINTAINER xialingming xialingming@pmlabs.com.cn 
 
 RUN apt-get update && \
     apt-get install -y python-pip
