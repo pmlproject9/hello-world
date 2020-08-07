@@ -1,6 +1,6 @@
 # hello-world
-This is a repo for index.alauda.io/alauda/hello-world docker image
+This is a repo for lmxia/hello-world docker image
 
 Run this image by:
 
-	docker run -d -P index.alauda.io/alauda/hello-world:latest
+	docker run -d -P lmxia/hello-world:latest
